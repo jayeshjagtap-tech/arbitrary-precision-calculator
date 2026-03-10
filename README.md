@@ -1,4 +1,4 @@
-1) Arbitrary Precision Calculator
+# Arbitrary Precision Calculator
 
 This project implements a command line calculator in C that can perform arithmetic operations on very large integers.
 
@@ -6,7 +6,7 @@ Normally in C, numbers are limited by the size of built in data types such as in
 
 By storing digits in linked lists, the program can perform calculations on numbers with hundreds or even thousands of digits.
 
-2) Operations Supported
+# Operations Supported
 
 The calculator supports the following operations:
 
@@ -18,7 +18,7 @@ The calculator supports the following operations:
 
 The program also handles positive and negative numbers and removes unnecessary leading zeros from the result.
 
-3) How the Program Works
+# How the Program Works
 
 1. The user enters two numbers and an operator.
 2. Each number is read as a string.
@@ -28,7 +28,7 @@ The program also handles positive and negative numbers and removes unnecessary l
 
 This approach avoids the limitations of standard integer data types.
 
-4) Project Structure
+# Project Structure
 
 The project is divided into multiple files to keep the code organized.
 
@@ -42,7 +42,7 @@ The project is divided into multiple files to keep the code organized.
 - apc.h – structure definitions and function declarations  
 - Makefile – used to compile the project
 
-5) Compile and Run
+# Compile and Run
 
 Compile the project using:
 Make
@@ -52,7 +52,7 @@ Run the program:
 
 Then enter the numbers and operator when prompted.
 
-6) Author
+# Author
 
 Jayesh Jagtap  
 B.E. Electronics & Telecommunication Engineering (2025)  
